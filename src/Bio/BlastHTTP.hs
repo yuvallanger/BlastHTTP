@@ -2,7 +2,7 @@
 
 -- | Searches a provided sequence with the NCBI Blast REST service and returns a blast result in xml format as BlastResult.
 --
--- The function blastHTTP takes the BlastHTTPQuery datatype as argument, which contains following elements: 
+-- The function blastHTTP takes the BlastHTTPQuery datatype as argument, which contains the following elements: 
 --
 -- 1. program:  Selects the blast-program to be used for the query. Example values are blastn, blastp, blastx,.. If Nothing is used as argument the function will default to blastn. Type: Maybe String
 --
